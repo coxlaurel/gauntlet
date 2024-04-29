@@ -1,6 +1,6 @@
 function gauntletMap()
     % Load data from 'valorant2.mat'
-    load('valorant3.mat','angles','positions','scans');
+    load('valorant3','angles','positions','scans');
 
     % Create a figure to hold all the subplots
     allPlots = figure;
