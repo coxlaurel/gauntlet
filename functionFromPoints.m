@@ -8,7 +8,7 @@ function [v, x, y] = functionFromPoints(points)
         % define x, y coordinate pair
             x_coord = points(1,i);
             y_coord = points(2,i);
-            v = build_equation(v, x, y, x_coord, y_coord); % add source at coordinate          
+            v = buildEquation(v, x, y, x_coord, y_coord); % add source at coordinate          
             i = i + 1;
     end
 end

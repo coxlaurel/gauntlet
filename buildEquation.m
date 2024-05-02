@@ -1,4 +1,4 @@
-function [v] = build_equation(v, x, y, x_coord, y_coord)
+function [v] = buildEquation(v, x, y, x_coord, y_coord)
 % Add new source to equation evaluted at meshgrid.
 %
 % Inputs
