@@ -3,7 +3,7 @@
 Our goal for this project is to get our Neato through the obstacle course of spiky walls and death traps so that it could touch the Ball of Benevolence, gaining the power of infinite knowledge. 
 
 ## Data Collection
-Run neato_lidar.m file to collect Neato Lidar data at different
+Run neato_LIDAR.m file to collect Neato Lidar data at different
 positions and angles. 
 
 Then, in buildMap.m, on line 3, in the load function, add the file
